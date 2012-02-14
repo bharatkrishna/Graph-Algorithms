@@ -1,2 +1,5 @@
-Graph Data Structure with basic algorithms
-------------------------------------------
+DFS and BFS on Graphs
+----------------------
+
+* Graph data structure implementation with Depth First Search & Breadth First Search.
+* Array based implementation of stack & queue. 

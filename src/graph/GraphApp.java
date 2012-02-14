@@ -11,11 +11,14 @@ public class GraphApp {
 		newGraph.addVertex('E');
 		
 		newGraph.addEdge(0, 1);
+		newGraph.addEdge(0, 2);
 		newGraph.addEdge(1, 3);
-		newGraph.addEdge(3, 2);
-		newGraph.addEdge(3, 4);
+		newGraph.addEdge(1, 4);
 		
+		System.out.print("DFS: ");
 		newGraph.dfs();
+		System.out.print("\nBFS: ");
+		newGraph.bfs();
 		
 	}
 
