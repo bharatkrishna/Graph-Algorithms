@@ -2,4 +2,5 @@ DFS and BFS on Graphs
 ----------------------
 
 * Graph data structure implementation with Depth First Search & Breadth First Search.
-* Array based implementation of stack & queue. 
+* Array based implementation of Stack & Queue. 
+* Unit tests for Stack, Queue and Graph vertex.

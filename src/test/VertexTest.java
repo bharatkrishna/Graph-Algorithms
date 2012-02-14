@@ -16,6 +16,10 @@ public class VertexTest {
 		assertEquals(false, v.wasVisited());		
 		v.visit();
 		assertEquals(true, v.wasVisited());
+		
+		v.reset();
+		assertEquals(false, v.wasVisited());	
+		
 	}	
 
 }
